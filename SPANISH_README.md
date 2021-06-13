@@ -1,4 +1,4 @@
-***DOCUMENTACION PARA MUXICMATCHAPI 2.0.0***
+***DOCUMENTACION PARA MUXICMATCHAPI 2.0.1***
 
 Importante: Esta libreria es Asincrona
 
@@ -50,7 +50,7 @@ namespace *Something*
 ```
 
 
-Eso es todo por la version 2.0.0
+Eso es todo por la version 2.0.1
 
 Gracias por descargar el paquete
 
