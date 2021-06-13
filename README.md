@@ -1,7 +1,7 @@
 # MuxicMatchApi
 Una librería que utiliza la Api de musixmatch, para hallar información de canciones y la letra de la misma
 
-***DOCUMENTATION FOR MUXICMATCHAPI 2.0.0***
+***DOCUMENTATION FOR MUXICMATCHAPI 2.0.1***
 
 ## Important: This library is Asynchronus
 
@@ -55,7 +55,7 @@ namespace *Something*
 ```
 
 
-That's all for 2.0.0
+That's all for 2.0.1
 
 Thanks for download this package
 
