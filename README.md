@@ -1,7 +1,7 @@
 # MuxicMatchApi
 Una librería que utiliza la Api de musixmatch, para hallar información de canciones y la letra de la misma
 
-Search in the nuget package:  MuxicMatchApi
+Search in the nuget package:  [MuxicMatchApi](https://www.nuget.org/packages/MuxicMatchApi/)
 
 New features: [Features](https://github.com/pro0072006/MuxicMatchApi/blob/main/Updates_notice.md)
 
