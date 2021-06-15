@@ -30,7 +30,7 @@ namespace *Something*
   static async Task Main()
   {
      var client = new MuxicMatchClient("Your Api key");
-     var track = await client.GetTrackAsync(*Parametros*);
+     var track = await client.GetTrackAsync("songTitle", "songArtist");
   }
 }
 ```
@@ -44,7 +44,7 @@ namespace *Something*
 {
   static async Task Main()
   {
-     var lyrics = await MuxicMatchClient.GetLyricsAsync(*Parametros*)
+     var lyrics = await MuxicMatchClient.GetLyricsAsync("songTitle", "songArtist")
   }
 }
 ```
