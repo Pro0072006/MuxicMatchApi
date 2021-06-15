@@ -11,9 +11,9 @@ There are coming new features to the MuxicMatchClient, this will include:
 - And more
 
 Finally are coming new and diferrents way to request the lyrics of the song, using
-- OVH (check)
-- MuxicMatch (check)
-- Genius (check)
+- OVH (✅)
+- MuxicMatch (✅)
+- Genius (✅)
 - Lyrics.com (working on)
 
 That´s all the features for 2.1.0, if you want to request something, create a pull requests please
