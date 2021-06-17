@@ -8,7 +8,7 @@ The new version will be: 2.1.0
 There are coming new features to the MuxicMatchClient, this will include:
 - New function for search songs with more precision
 - New functions allows you get songs of an artist
-- And more
+- Beautiful lyrics
 
 Finally are coming new and diferrents way to request the lyrics of the song, using
 - OVH (✅)
