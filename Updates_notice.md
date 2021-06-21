@@ -1,7 +1,7 @@
 # Update-Notices
 
 Hey guys, If you think this package is dead actually is not, I'm already working in a new version this is the features
-The new version will be: 2.1.0
+The new version will be: 2.5.0
 
 ## Features
 
@@ -17,6 +17,6 @@ Finally are coming new and diferrents way to request the lyrics of the song, usi
 - AzLyrics (✅)
 - Lyrics.com (working on)
 
-That´s all the features for 2.1.0, if you want to request something, create a pull requests please
+That´s all the features for 2.5.0, if you want to request something, create a pull requests please
 Have a nice day
 Pro0072006
