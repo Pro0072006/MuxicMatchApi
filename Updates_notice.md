@@ -14,6 +14,7 @@ Finally are coming new and diferrents way to request the lyrics of the song, usi
 - OVH (✅)
 - MuxicMatch (✅)
 - Genius (✅)
+- AzLyrics (✅)
 - Lyrics.com (working on)
 
 That´s all the features for 2.1.0, if you want to request something, create a pull requests please
