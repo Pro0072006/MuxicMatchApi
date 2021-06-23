@@ -5,7 +5,7 @@ Search in the nuget package:  [MuxicMatchApi](https://www.nuget.org/packages/Mux
 
 New features: [Features](https://github.com/pro0072006/MuxicMatchApi/blob/main/Updates_notice.md)
 
-***DOCUMENTATION FOR MUXICMATCHAPI 2.1.0***
+***DOCUMENTATION FOR MUXICMATCHAPI 2.5.0***
 
 ## Important: This library is Asynchronus
 
@@ -36,7 +36,7 @@ namespace test__delete_
 ```
 ### Functions:
 
-In this version there are 3 functions:
+In this version there are 2 functions:
 
 
 GetTrackAsync: This method is a instance of the class, so you have to use like this:
@@ -154,9 +154,37 @@ namespace test__delete_
     }
 }
 ```
-Important: This features is Beta, this may no working well, but usually does :)
+**Important: This features is Beta, this may no working well, but usually does :)**
 
-That's all for 2.1.0
+GetAzLyrics: This will fetch the lyrics using Azlyrics.com
+Example:
+```C#
+using System;
+using System.Threading.Tasks;
+using MuxicMatchApi;
+
+namespace Tutorial
+{
+    class Program
+    {
+        static async Task Main(string[] args)
+        {
+            var track = await LyricsFinder.GetAzLyrics("uprising", "muse");
+            Console.WriteLine(track);
+
+            /*
+            Paranoia is in bloom,
+            The PR transmissions will resume
+            They'll try to push drugs that keep us all dumbed down
+            And hope that we will never see the truth around
+            (so come on)
+            */
+        }
+    }
+}
+```
+
+That's all for 2.5.0
 
 Thanks for download this package
 
