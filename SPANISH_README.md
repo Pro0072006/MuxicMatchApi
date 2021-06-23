@@ -91,7 +91,7 @@ namespace test__delete_
 ### IMPORTANTE: SI TIENES UNA API KEY PERSONAL, ESTE SOLO RETORNARA EL 30% DE LA CANCION, ASI QUE SI QUIERES LA LETRA COMPLETA, SIGUE LEYENDO.
 
 ## LyricsFinder
-Esta es una clase estatica, esta contiene 3 metodos por ahora para buscar letras, esto significa que no necesitas una Api key:
+Esta es una clase estatica, esta contiene 4 metodos por ahora para buscar letras, esto significa que no necesitas una Api key:
 
 ### Functions
 
@@ -156,7 +156,34 @@ namespace test__delete_
 ```
 Importante: Este añadido es Beta, Asi que puede ser inestable o no funcione, pero normalmente lo hara :)
 
-Eso es todo por la 2.1.0
+GetAzlyrics: Este consultara a Azlyrics.com por la letra
+```C#
+using System;
+using System.Threading.Tasks;
+using MuxicMatchApi;
+
+namespace Tutorial
+{
+    class Program
+    {
+        static async Task Main(string[] args)
+        {
+            var track = await LyricsFinder.GetAzLyrics("uprising", "muse");
+            Console.WriteLine(track);
+
+            /*
+            Paranoia is in bloom,
+            The PR transmissions will resume
+            They'll try to push drugs that keep us all dumbed down
+            And hope that we will never see the truth around
+            (so come on)
+            */
+        }
+    }
+}
+```
+
+Eso es todo por la 2.5.0
 
 Gracias por descargar el paquete
 
